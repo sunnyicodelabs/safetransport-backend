@@ -1,5 +1,5 @@
 {
-  "name": "Safemove",
+  "name": "safemove",
   "version": "1.0.0",
   "description": "This is backend of Safemove",
   "main": "index.js",
