@@ -32,7 +32,7 @@ mongoose
 // app.use(bodyParser());
 app.use(cors());
 app.use(express.json());
-app.use('/public',express.static(path.join(__dirname, 'uploads')));
+app.use('/public', express.static(path.join(__dirname, 'uploads')));
 // app.use(bodyParser.urlencoded({extended: true}));
 app.use('/api', authRoutes);
 app.use('/api', adminRoutes);
@@ -43,6 +43,7 @@ app.use('/api', postroutes);
 
 const port = process.env.PORT || 5000;
 
-app.listen(port, () => {
-  console.log(`server is running on port ${port}`);
+app.listen(process.env.PORT || 5000, function () {
+  console.log('Server listening on port 3000');
+
 });
