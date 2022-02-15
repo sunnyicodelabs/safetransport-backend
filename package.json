@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./src/index.server.js",
-    "dev": "nodemon ./src/index.server.js",
+    "dev": "nodemon ./src/index.server.js"
 
   },
   "keywords": [
