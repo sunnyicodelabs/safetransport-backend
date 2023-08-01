@@ -40,7 +40,7 @@ app.use('/api', categoryRoutes);
 app.use('/api', productRoutes);
 app.use('/api', cartRoutes);
 app.use('/api', postroutes);
-
+//  
 const port = process.env.PORT || 5000;
 
 app.listen(process.env.PORT || 5000, function () {
